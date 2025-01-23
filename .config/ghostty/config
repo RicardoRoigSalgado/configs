@@ -1,0 +1,26 @@
+font-size=14
+theme = GruvboxDarkHard
+shell-integration-features = no-cursor,sudo,no-title
+cursor-style = block
+adjust-cell-height = 35%
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+window-padding-balance = true
+window-save-state = always
+macos-titlebar-style = transparent
+window-colorpace = "display-p3"
+macos-titlebar-style 1C2021
+
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>x=close_surface
+keybind = cmd+s>n=new_window
+keybind = cmd+s>c=new_tab
+
+keybind = cmd+s>shift+l=next_tab
+keybind = cmd+s>shift+h=previous_tab
+keybind = cmd+s>comma=move_tab:-1
+keybind = cmd+s>period=move_tab:1
+
+
+

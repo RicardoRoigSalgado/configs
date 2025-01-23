@@ -1,5 +1,3 @@
-# nvim config
-
 require("config.lazy")
 
 vim.opt.number = true -- Enable line numbering
