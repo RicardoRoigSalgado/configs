@@ -15,7 +15,7 @@ if [ "$OS" = "Darwin" ]; then
     brew install tmux neovim ripgrep fd node git curl
 elif [ "$OS" = "Linux" ]; then
     sudo apt update
-    sudo apt install -y tmux ripgrep fd-find nodejs npm git curl build-essential
+    sudo apt install -y zsh tmux ripgrep fd-find nodejs npm git curl build-essential
 
     # Install neovim (latest stable via appimage or PPA since apt version is often outdated)
     if ! command -v nvim &>/dev/null || [[ "$(nvim --version | head -1 | grep -oP '\d+\.\d+')" < "0.9" ]]; then
