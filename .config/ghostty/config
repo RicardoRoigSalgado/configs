@@ -12,6 +12,10 @@ macos-titlebar-style = transparent
 window-colorpace = "display-p3"
 macos-titlebar-style 1C2021
 
+# Mac-style keybindings for Linux (Ctrl maps to Command via keyd)
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
 keybind = cmd+s>r=reload_config
 keybind = cmd+s>x=close_surface
 keybind = cmd+s>n=new_window
